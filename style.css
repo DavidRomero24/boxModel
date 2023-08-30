@@ -9,6 +9,8 @@ header {
 }
 
 section {
+    display: flex;
+    /* flex-direction: row-reverse; */
     background-color: green;
     overflow: hidden;
 }
@@ -16,12 +18,10 @@ section {
 nav{
     background-color: beige;
     width: 25%;
-    float: left;
 }
 
 article {
     background-color: aquamarine;
-    float: left;
     width: 75%;
     height: 80px;
 }
